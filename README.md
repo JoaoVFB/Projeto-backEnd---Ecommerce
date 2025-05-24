@@ -69,9 +69,8 @@
 <h2 id="tecnologias">Tecnologias Utilizadas</h2>
 <ul>
   <li><strong>Node.js</strong></li>
-  <li><strong>Express.js</strong></li>
-  <li><strong>MongoDB</strong> ou <strong>PostgreSQL</strong> (dependendo do banco escolhido)</li>
-  <li><strong>Mongoose</strong> ou <strong>Sequelize</strong> (ORM)</li>
+  <li><strong>MongoDB</strong></li>
+  <li><strong>Mongoose</strong></li>
   <li><strong>Nodemon</strong> para desenvolvimento</li>
   <li><strong>Postman</strong> para testes dos endpoints</li>
 </ul>
