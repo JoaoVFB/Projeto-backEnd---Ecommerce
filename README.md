@@ -2,7 +2,7 @@
 
 <h2>Tópicos</h2>
 <ul>
-  <li><a href="#integrantes-da-equipe"></a></li>
+  <li><a href="#integrantes-da-equipe">Integrantes da equipe</a></li>
   <li><a href="#instituicao-atendida">Instituição atendida</a></li>
   <li><a href="#descricao-do-projeto">Descrição do projeto</a></li>
   <li><a href="#estrutura-do-projeto">Estrutura do projeto</a></li>
