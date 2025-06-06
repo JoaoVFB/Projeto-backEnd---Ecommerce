@@ -45,7 +45,7 @@
 <ol>
   <li><strong>Usuários:</strong></li>
   <ul>
-    <li>Criar novo usuário</li>
+    <li></li>
     <li>Buscar usuário por ID ou listar todos</li>
     <li>Atualizar dados de um usuário</li>
     <li>Deletar usuário</li>
