@@ -2,7 +2,7 @@
 
 <h2>Tópicos</h2>
 <ul>
-  <li><a href="#integrantes-da-equipe">Integrantes da equipe</a></li>
+  <li><a href="#integrantes-da-equipe"></a></li>
   <li><a href="#instituicao-atendida">Instituição atendida</a></li>
   <li><a href="#descricao-do-projeto">Descrição do projeto</a></li>
   <li><a href="#estrutura-do-projeto">Estrutura do projeto</a></li>
@@ -26,7 +26,7 @@
 
 <h2 id="descricao-do-projeto">Descrição do Projeto</h2>
 <p>
-  O projeto tem como objetivo desenvolver uma API back-end para uma plataforma de e-commerce, permitindo o gerenciamento completo de usuários, produtos e pedidos. A aplicação contará com rotas seguras e funcionalidades de CRUD (Create, Read, Update, Delete), atendendo aos principais processos de uma loja virtual.
+  O projeto tem como objetivo desenvolver uma API back-end para uma plataforma de e-commerce, permitindo o gerenciamento completo de usuários, produtos e pedidos. A aplicação contará com rotas seguras e funcionalidades de CRUD(Create, Read, Update, Delete), atendendo aos principais processos de uma loja virtual.
 </p>
 
 <h2 id="estrutura-do-projeto">Estrutura do Projeto</h2>
