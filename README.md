@@ -34,10 +34,9 @@
   <li><strong>Diretórios principais:</strong></li>
   <ul>
     <li><strong>models/</strong>: Contém as classes <code>Usuario</code>, <code>Produto</code> e <code>Pedido</code></li>
-    <li><strong>controllers/</strong>: Contém a lógica das operações da API</li>
-    <li><strong>routes/</strong>: Definição de rotas para cada entidade</li>
+    <li><strong>controllers/</strong>: Contém a lógica da operação Logger (gerência de erros)</li>
     <li><strong>database/</strong>: Configuração do banco de dados</li>
-    <li><strong>server.js</strong>: Arquivo principal que inicializa a aplicação</li>
+    <li><strong>app.js</strong>: Arquivo principal que inicializa a aplicação</li>
   </ul>
 </ol>
 
@@ -70,7 +69,5 @@
 <ul>
   <li><strong>Node.js</strong></li>
   <li><strong>MongoDB</strong></li>
-  <li><strong>Mongoose</strong></li>
   <li><strong>Nodemon</strong> para desenvolvimento</li>
-  <li><strong>Postman</strong> para testes dos endpoints</li>
 </ul>
