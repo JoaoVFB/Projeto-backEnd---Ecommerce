@@ -8,6 +8,7 @@ const { MongoClient, ObjectId } = require('mongodb');
 const Usuario = require('./models/usuarios');
 const Produto = require('./models/produtos');
 const Pedido = require('./models/pedidos');
+const Logger = require('./controllers/logger');
 
 async function main() {
     try {
@@ -52,19 +53,19 @@ async function main() {
         await Pedido.deletar({ status: 'entregue' });
 
     } catch (err) {
-        console.error('Erro geral:', err);
+        Logger.error('Erro geral:' + err);
     }
 }
 
 // Funções auxiliares para buscar dados com retorno
 async function buscarUsuariosComFiltro(filtro) {
-    const { connect } = require('./models/db');
+    const { connect } = require('./database/db');
     const { db, client } = await connect();
     try {
         const usuarios = await db.collection('usuarios').find(filtro).toArray();
         return usuarios;
     } catch (err) {
-        console.error("Erro ao buscar usuários:", err);
+        Logger.error("Erro ao buscar usuários:" + err);
         return [];
     } finally {
         client.close();
@@ -72,13 +73,13 @@ async function buscarUsuariosComFiltro(filtro) {
 }
 
 async function buscarProdutosComFiltro(filtro) {
-    const { connect } = require('./models/db');
+    const { connect } = require('./database/db');
     const { db, client } = await connect();
     try {
         const produtos = await db.collection('produtos').find(filtro).toArray();
         return produtos;
     } catch (err) {
-        console.error("Erro ao buscar produtos:", err);
+        Logger.error("Erro ao buscar produtos:" + err);
         return [];
     } finally {
         client.close();
